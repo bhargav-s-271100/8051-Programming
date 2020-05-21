@@ -1,0 +1,22 @@
+org 00h
+mov r0,#30h
+mov a,@r0
+mov b,@r0
+mul ab
+mov 31h,b
+mov 32h,a
+mov r1,b
+mov b,@r0
+mul ab
+mov 36h,a
+mov r2,b
+mov b,r1
+mov a,@r0
+mul ab
+mov r3,b
+add a,r2
+mov 35h,a
+mov a,#0h
+addc a,r3
+mov 34h,a
+end

@@ -1,0 +1,3 @@
+//moving a data block from one location to other in data memory
+mov a,30h
+mov b,a

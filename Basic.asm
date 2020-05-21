@@ -1,0 +1,7 @@
+ORG 00H
+MOV A,#5
+MOV B,#6
+ADD A,B
+DIV A,B
+MUL A
+END
